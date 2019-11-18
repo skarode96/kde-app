@@ -7,16 +7,18 @@ import Button from "react-bootstrap/Button";
 import ResponseTableComponent from "../ResponseTable.component";
 import fetchSparQL from "../../fetch.service";
 
+import Form from "react-bootstrap/Form";
+
 function Question1() {
 
     let [response, setResponse] = React.useState({});
+    let query = "PREFIX csv: <http://example.org/csv/>\n" +
+        "SELECT ?subject ?name\n" +
+        "WHERE {\n" +
+        " ?subject csv:sdccowned \"Yes\".\n" +
+        " ?subject csv:name ?name.\n" +
+        "}";
     async function getResultList() {
-        let query = "PREFIX csv: <http://example.org/csv/>\n" +
-            "SELECT ?subject ?name\n" +
-            "WHERE {\n" +
-            " ?subject csv:sdccowned \"Yes\".\n" +
-            " ?subject csv:name ?name.\n" +
-            "}";
         const response = await fetchSparQL(query);
         const myJson = await response.json();
         setResponse(myJson);
@@ -38,6 +40,11 @@ function Question1() {
                         <Button variant="light" onClick={() => getResultList()}>Get List</Button>
                         <Button variant="dark" onClick={() => resetResultList()}>Reset</Button>
                     </Col>
+                </Row>
+                <br/>
+                <br/>
+                <Row>
+                    <Form.Control defaultValue={query} as="textarea" disabled={true}  rows="8" />
                 </Row>
                 <br/>
                 <br/>

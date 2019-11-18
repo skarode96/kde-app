@@ -7,21 +7,23 @@ import Button from "react-bootstrap/Button";
 import ResponseTableComponent from "../ResponseTable.component";
 import fetchSparQL from "../../fetch.service";
 import Dropdown from "react-bootstrap/Dropdown";
+import Form from "react-bootstrap/Form";
+
 
 function Question2() {
 
     let [response, setResponse] = React.useState({});
     let [dropdownVal, setDropDownVal] = React.useState('DUBLIN 12');
+    let query = "PREFIX csv: <http://example.org/csv/>\n" +
+        "SELECT ?name ?add\n" +
+        "WHERE {\n" +
+        " ?subject csv:address ?add.\n" +
+        " ?subject csv:name ?name.\n" +
+        " FILTER regex(?add, \""+
+        dropdownVal
+        +"\", \"i\")\n" +
+        "}";
     async function getResultList() {
-        let query = "PREFIX csv: <http://example.org/csv/>\n" +
-            "SELECT ?name ?add\n" +
-            "WHERE {\n" +
-            " ?subject csv:address ?add.\n" +
-            " ?subject csv:name ?name.\n" +
-            " FILTER regex(?add, \""+
-            dropdownVal
-            +"\", \"i\")\n" +
-            "}";
         const response = await fetchSparQL(query);
         const myJson = await response.json();
         setResponse(myJson);
@@ -32,6 +34,8 @@ function Question2() {
 
     function handleOnSelect(eventKey) {
         setDropDownVal(eventKey);
+        resetResultList();
+        getResultList();
     }
 
     return(
@@ -41,9 +45,9 @@ function Question2() {
             <br/>
             <Row>
                 <Col xs={7}>
-                    What are names of Sports and Recreation Clubs & Multi-Use Community Centres present in
+                    Give names of Sports and Recreation Clubs & Multi-Use Community Centres present in
                 </Col>
-                <Col xs={2}>
+                <Col xs={2} >
                     <Dropdown onSelect={(eventKey)=>handleOnSelect(eventKey)}>
                         <Dropdown.Toggle variant="success" id="dropdown-basic">
                             {dropdownVal}
@@ -61,6 +65,10 @@ function Question2() {
                     <Button variant="light" onClick={() => getResultList()}>Get List</Button>
                     <Button variant="dark" onClick={() => resetResultList()}>Reset</Button>
                 </Col>
+            </Row>
+            <br/>
+            <Row>
+                <Form.Control as="textarea" disabled={true}  rows="8" value={query}/>
             </Row>
             <br/>
             <br/>

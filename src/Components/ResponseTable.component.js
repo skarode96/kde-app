@@ -18,9 +18,11 @@ function ResponseTableComponent(props) {
 
     return(
         <React.Fragment>
+            <br/>
         <Row>
             <h6>Showing {rowTag.length} results out of {rowTag.length}</h6>
         </Row>
+            <br/>
         <Table responsive striped bordered hover>
             <thead>
             <tr>
