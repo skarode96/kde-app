@@ -42,7 +42,7 @@ function Question1() {
                 <br/>
                 <br/>
                 <Row>
-                    <ResponseTableComponent response={response} headerList={['name']} />
+                    <ResponseTableComponent response={response} />
                 </Row>
                 <br/>
                 <br/>

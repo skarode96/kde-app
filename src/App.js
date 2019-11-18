@@ -5,17 +5,22 @@ import Tab from 'react-bootstrap/Tab';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Question1 from "./Components/Questions/Question1.component";
+import Question2 from "./Components/Questions/Question2.component";
+import QueryInterface from "./Components/QueryInterface/QueryInterface.component";
 
 function App() {
   return (
     <div className="App">
 
-        <Tabs defaultActiveKey="Question1" id="uncontrolled-tab-example">
+        <Tabs defaultActiveKey="Query Interface" id="uncontrolled-tab-example">
+        <Tab eventKey="Query Interface" title="Query Interface">
+            <QueryInterface/>
+        </Tab>
         <Tab eventKey="Question1" title="Question1">
             <Question1/>
         </Tab>
         <Tab eventKey="Question2" title="Question2">
-            2
+            <Question2/>
         </Tab>
         <Tab eventKey="Question3" title="Question3">
             3

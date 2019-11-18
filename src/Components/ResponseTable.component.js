@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Table from "react-bootstrap/Table";
+import Row from "react-bootstrap/Row";
 
 function ResponseTableComponent(props) {
 
@@ -13,11 +14,14 @@ function ResponseTableComponent(props) {
             <td>{id}</td>
             {headers.map((val,id) => <td key={id}>{ele[val].value}</td>)}
         </tr>
-    )}):null;
+    )}):[];
 
-    console.log(props);
     return(
-        <Table striped bordered hover>
+        <React.Fragment>
+        <Row>
+            <h6>Showing {rowTag.length} results out of {rowTag.length}</h6>
+        </Row>
+        <Table responsive striped bordered hover>
             <thead>
             <tr>
                 {headersTag && <th>Sr</th>}
@@ -28,6 +32,7 @@ function ResponseTableComponent(props) {
             {rowTag}
             </tbody>
         </Table>
+        </React.Fragment>
     )
 }
 
