@@ -42,7 +42,7 @@ function Question3() {
             <br/>
             <Row>
                 <Col>
-                    Which Sports and Recreation Clubs & Multi-Use Community Centres have outdoor facilities and a coffee dock?
+                    Which Sports and Recreation Clubs & Multi-Use Community Centres have coffee docks?
                 </Col>
                 <Col>
                     <Button variant="light" onClick={() => getResultList()}>Query</Button>

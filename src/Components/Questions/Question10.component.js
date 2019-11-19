@@ -73,10 +73,10 @@ function Question10() {
             <br/>
             <br/>
             <Row>
-                <Col xs={7}>
-                    Which is the nearest parking area available near a particular Sports and Recreation Club and what are the number of parking spaces in it?
+                <Col xs={5}>
+                    What are the details of nearest parking area available near a particular Sports and Recreation Club and Give the number of available parking spaces?
                 </Col>
-                <Col xs={2} >
+                <Col xs={4} >
                     <Dropdown onSelect={(eventKey)=>handleOnSelect(eventKey)}>
                         <Dropdown.Toggle variant="success" id="dropdown-basic">
                             {dropdownVal}
@@ -88,6 +88,10 @@ function Question10() {
                             <Dropdown.Item eventKey={'TALLAGHT WARRIORS RUGBY YOUTH CLUB'}>TALLAGHT WARRIORS RUGBY YOUTH CLUB</Dropdown.Item>
                             <Dropdown.Item eventKey={'South Dublin Football League'}>South Dublin Football League</Dropdown.Item>
                             <Dropdown.Item eventKey={'SAINT MARY\'S RUGBY FOOTBALL CLUB'}>SAINT MARY'S RUGBY FOOTBALL CLUB</Dropdown.Item>
+                            <Dropdown.Item eventKey={'NEILSTOWN COMMUNITY CENTRE'} >NEILSTOWN COMMUNITY CENTRE</Dropdown.Item>
+                            <Dropdown.Item eventKey={'TYMON BAWN COMMUNITY CENTRE'}>TYMON BAWN COMMUNITY CENTRE</Dropdown.Item>
+                            <Dropdown.Item eventKey={'RATHCOOLE COMMUNITY CENTRE'}>RATHCOOLE COMMUNITY CENTRE</Dropdown.Item>
+                            <Dropdown.Item eventKey={'QUARRYVALE COMMUNITY CENTRE'}>QUARRYVALE COMMUNITY CENTRE</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </Col>
