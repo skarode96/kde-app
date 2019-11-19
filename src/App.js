@@ -6,6 +6,11 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Question1 from "./Components/Questions/Question1.component";
 import Question2 from "./Components/Questions/Question2.component";
+import Question3 from "./Components/Questions/Question3.component";
+import Question4 from "./Components/Questions/Question4.component";
+import Question5 from "./Components/Questions/Question5.component";
+import Question6 from "./Components/Questions/Question6.component";
+import Question7 from "./Components/Questions/Question7.component";
 import QueryInterface from "./Components/QueryInterface/QueryInterface.component";
 
 function App() {
@@ -23,19 +28,19 @@ function App() {
             <Question2/>
         </Tab>
         <Tab eventKey="Question3" title="Question3">
-            3
+            <Question3/>
         </Tab>
         <Tab eventKey="Question4" title="Question4">
-            4
+            <Question4/>
         </Tab>
         <Tab eventKey="Question5" title="Question5">
-            5
+            <Question5/>
         </Tab>
         <Tab eventKey="Question6" title="Question6">
-            6
+            <Question6/>
         </Tab>
         <Tab eventKey="Question7" title="Question7">
-            7
+            <Question7/>
         </Tab>
         <Tab eventKey="Question8" title="Question8">
             8

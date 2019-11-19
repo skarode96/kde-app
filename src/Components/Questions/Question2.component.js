@@ -14,15 +14,23 @@ function Question2() {
 
     let [response, setResponse] = React.useState({});
     let [dropdownVal, setDropDownVal] = React.useState('DUBLIN 12');
-    let query = "PREFIX csv: <http://example.org/csv/>\n" +
-        "SELECT ?name ?add\n" +
+    let query = "PREFIX csv: <http://www.semanticweb.org/KDE#>\n" +
+        "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+        "PREFIX math:<http://www.w3.org/2005/xpath-functions/math#>\n" +
+        "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
+        "PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n" +
+        "PREFIX cs: <http://purl.org/vocab/changeset/schema#>\n"+
+        "SELECT ?Name_Of_Center ?Address\n" +
         "WHERE {\n" +
-        " ?subject csv:address ?add.\n" +
-        " ?subject csv:name ?name.\n" +
-        " FILTER regex(?add, \""+
+        "  ?subject csv:hasAddress ?Address.\n" +
+        "  ?center csv:hasContactInfo ?subject. \n" +
+        "  ?center csv:hasName ?Name_Of_Center.\n" +
+        " FILTER regex(?Address, \""+
         dropdownVal
         +"\", \"i\")\n" +
         "}";
+
+
     async function getResultList() {
         const response = await fetchSparQL(query);
         const myJson = await response.json();
@@ -34,8 +42,7 @@ function Question2() {
 
     function handleOnSelect(eventKey) {
         setDropDownVal(eventKey);
-        resetResultList();
-        getResultList();
+        // resetResultList();
     }
 
     return(
@@ -62,7 +69,7 @@ function Question2() {
                     </Dropdown>
                 </Col>
                 <Col xs={3}>
-                    <Button variant="light" onClick={() => getResultList()}>Get List</Button>
+                    <Button variant="light" onClick={() => getResultList()}>Query</Button>
                     <Button variant="dark" onClick={() => resetResultList()}>Reset</Button>
                 </Col>
             </Row>

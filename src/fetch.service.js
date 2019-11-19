@@ -1,7 +1,7 @@
 
 export default async function fetchSparQL(query) {
     let body = "query=" + encodeURIComponent(query);
-    const response = await fetch("http://localhost:3030/test-1/sparql", {
+    const response = await fetch("http://localhost:3030/kde_j_v2/sparql", {
         "credentials": "include",
         "headers": {
             "accept": "application/sparql-results+json,*/*;q=0.9",
