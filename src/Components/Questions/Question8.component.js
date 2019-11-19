@@ -9,7 +9,7 @@ import fetchSparQL from "../../fetch.service";
 
 import Form from "react-bootstrap/Form";
 
-function Question4() {
+function Question8() {
 
     let [response, setResponse] = React.useState({});
     let query = "PREFIX csv: <http://www.semanticweb.org/KDE#>\n" +
@@ -19,11 +19,12 @@ function Question4() {
         "PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n" +
         "PREFIX cs: <http://purl.org/vocab/changeset/schema#>\n" +
         "\n" +
-        "SELECT ?Creator (xsd:string(COUNT(?name)) AS ?Count)\n" +
+        "SELECT ?name ?subject\n" +
         "WHERE {\n" +
-        "  ?subject csv:createdBy ?Creator.\n" +
-        "  ?subject csv:hasName ?name.\n" +
-        "}GROUP BY ?Creator";
+        "  ?record csv:hasOnlinePresence ?subject.\n" +
+        "  ?record csv:hasName ?name.\n" +
+        "  FILTER(NOT EXISTS { ?subject csv:hasWebsite ?site })\n" +
+        "}\n";
     async function getResultList() {
         const response = await fetchSparQL(query);
         const myJson = await response.json();
@@ -40,7 +41,7 @@ function Question4() {
             <br/>
             <Row>
                 <Col>
-                    What are the counts of Sports and Recreation Clubs & Multi-Use Community Centres were created by Community and ESRI (The Economic and Social Research Institute)?
+                    What are the Sports and Recreation Clubs & Multi-Use Community Centres that have missing website information?
                 </Col>
                 <Col>
                     <Button variant="light" onClick={() => getResultList()}>Query</Button>
@@ -65,4 +66,4 @@ function Question4() {
 }
 
 
-export default Question4;
+export default Question8;

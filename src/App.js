@@ -11,7 +11,10 @@ import Question4 from "./Components/Questions/Question4.component";
 import Question5 from "./Components/Questions/Question5.component";
 import Question6 from "./Components/Questions/Question6.component";
 import Question7 from "./Components/Questions/Question7.component";
+import Question8 from "./Components/Questions/Question8.component";
+import Question9 from "./Components/Questions/Question9.component";
 import QueryInterface from "./Components/QueryInterface/QueryInterface.component";
+import Question10 from "./Components/Questions/Question10.component";
 
 function App() {
   return (
@@ -43,13 +46,13 @@ function App() {
             <Question7/>
         </Tab>
         <Tab eventKey="Question8" title="Question8">
-            8
+            <Question8/>
         </Tab>
         <Tab eventKey="Question9" title="Question9">
-            9
+            <Question9/>
         </Tab>
         <Tab eventKey="Question10" title="Question10">
-            10
+            <Question10/>
         </Tab>
       </Tabs>
 

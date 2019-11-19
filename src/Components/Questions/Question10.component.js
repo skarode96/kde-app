@@ -10,31 +10,32 @@ import Dropdown from "react-bootstrap/Dropdown";
 import Form from "react-bootstrap/Form";
 
 
-function Question7() {
+function Question10() {
 
     let [response, setResponse] = React.useState({});
-    let [dropdownValCenter, setDropDownValCenter] = React.useState('NEILSTOWN COMMUNITY CENTRE');
+    let [dropdownVal, setDropDownVal] = React.useState('MARK\'S CELTIC FOOTBALL CLUB');
     let query = "PREFIX csv: <http://www.semanticweb.org/KDE#>\n" +
         "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
         "PREFIX math:<http://www.w3.org/2005/xpath-functions/math#>\n" +
         "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
         "PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n" +
-        "PREFIX cs: <http://purl.org/vocab/changeset/schema#>\n" +
-        "SELECT  ?Type (xsd:string(Count(?Type)) AS ?Count)\n" +
+        "PREFIX cs: <http://purl.org/vocab/changeset/schema#>\n"+
+        "SELECT ?Name ?Distance (xsd:string(?numberofspaces) AS ?Number_Of_Spaces) ?Type_Of_Space \n" +
         "WHERE {\n" +
         "  ?subject csv:hasX ?x.\n" +
         "  ?subject csv:hasY ?y.\n" +
         "  ?parkingrecord csv:hasCoordinates ?subject.\n" +
         "  ?parkingrecord rdf:type csv:ParkingSpace.\n" +
-        "  ?parkingrecord csv:hasLocationName ?name.\n" +
-        "  ?parkingrecord csv:hasSpaceType ?Type.\n" +
+        "  ?parkingrecord csv:hasLocationName ?Name.\n" +
+        "  ?parkingrecord csv:hasSpaceType ?Type_Of_Space.\n" +
+        "  ?parkingrecord csv:numberOfSpaces ?numberofspaces\n" +
         "  {\n" +
         "    SELECT ?selectedx ?selectedy \n" +
         "    WHERE {\n" +
         "      ?sub csv:hasX ?selectedx.\n" +
         "      ?sub csv:hasY ?selectedy.\n" +
         "      ?center csv:hasCoordinates ?sub.\n" +
-        "       ?center csv:hasName \"" + dropdownValCenter + "\".\n" +
+        "      ?center csv:hasName \"" + dropdownVal + "\".\n" +
         "   }\n" +
         "  }\n" +
         "# To get the distance between two coordinates in metres \n" +
@@ -46,11 +47,10 @@ function Question7() {
         "  BIND(math:sin(?phi / xsd:decimal(2)) * math:sin(?phi / xsd:decimal(2)) + math:cos(?lat1radians) * math:cos(?lat2radians) * math:sin(?lambda / xsd:decimal(2)) * math:sin(?lambda / xsd:decimal(2)) AS ?a)\n" +
         "  BIND(xsd:decimal(2) * math:atan2(math:sqrt(?a),math:sqrt(1-?a)) AS ?c)\n" +
         "  BIND(xsd:decimal(6371000) * xsd:decimal(?c) AS ?distance)\n" +
-        "  BIND(xsd:string(?distance) AS ?dist)\n" +
+        "  BIND(xsd:string(?distance) AS ?Distance)\n" +
         "  \n" +
         "  FILTER(?distance < xsd:decimal(2000))\n" +
-        "  \n" +
-        "}GROUPBY ?Type";
+        "}ORDER BY ?distance LIMIT 1 OFFSET 1\n";
 
 
     async function getResultList() {
@@ -62,8 +62,9 @@ function Question7() {
         setResponse({});
     }
 
-    function handleOnSelectCenter(eventKey) {
-        setDropDownValCenter(eventKey);
+    function handleOnSelect(eventKey) {
+        setDropDownVal(eventKey);
+        // resetResultList();
     }
 
     return(
@@ -72,25 +73,24 @@ function Question7() {
             <br/>
             <br/>
             <Row>
-                <Col xs={4}>
-                    What are the different kinds of Space-type available for parking near a particular Sports and Recreation Club and what are the counts of each of them?
+                <Col xs={7}>
+                    Which is the nearest parking area available near a particular Sports and Recreation Club and what are the number of parking spaces in it?
                 </Col>
-                <Col xs={4}>
-                    <Dropdown onSelect={(eventKey)=>handleOnSelectCenter(eventKey)}>
+                <Col xs={2} >
+                    <Dropdown onSelect={(eventKey)=>handleOnSelect(eventKey)}>
                         <Dropdown.Toggle variant="success" id="dropdown-basic">
-                            {dropdownValCenter}
+                            {dropdownVal}
                         </Dropdown.Toggle>
-                        &nbsp;
+
                         <Dropdown.Menu>
-                            <Dropdown.Item eventKey={'NEILSTOWN COMMUNITY CENTRE'} >NEILSTOWN COMMUNITY CENTRE</Dropdown.Item>
-                            <Dropdown.Item eventKey={'TYMON BAWN COMMUNITY CENTRE'}>TYMON BAWN COMMUNITY CENTRE
-                            </Dropdown.Item>
-                            <Dropdown.Item eventKey={'RATHCOOLE COMMUNITY CENTRE'}>RATHCOOLE COMMUNITY CENTRE</Dropdown.Item>
-                            <Dropdown.Item eventKey={'QUARRYVALE COMMUNITY CENTRE'}>QUARRYVALE COMMUNITY CENTRE</Dropdown.Item>
+                            <Dropdown.Item eventKey={'MARK\'S CELTIC FOOTBALL CLUB'} >MARK'S CELTIC FOOTBALL CLUB</Dropdown.Item>
+                            <Dropdown.Item eventKey={'SAINT JOSEPH\'S AMATURE BOXING CLUB'}>SAINT JOSEPH'S AMATURE BOXING CLUB</Dropdown.Item>
+                            <Dropdown.Item eventKey={'TALLAGHT WARRIORS RUGBY YOUTH CLUB'}>TALLAGHT WARRIORS RUGBY YOUTH CLUB</Dropdown.Item>
+                            <Dropdown.Item eventKey={'South Dublin Football League'}>South Dublin Football League</Dropdown.Item>
+                            <Dropdown.Item eventKey={'SAINT MARY\'S RUGBY FOOTBALL CLUB'}>SAINT MARY'S RUGBY FOOTBALL CLUB</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </Col>
-                <Row/>
                 <Col xs={3}>
                     <Button variant="light" onClick={() => getResultList()}>Query</Button>
                     <Button variant="dark" onClick={() => resetResultList()}>Reset</Button>
@@ -113,4 +113,4 @@ function Question7() {
 }
 
 
-export default Question7;
+export default Question10;
