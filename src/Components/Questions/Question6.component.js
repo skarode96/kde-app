@@ -73,7 +73,7 @@ function Question6() {
             <br/>
             <Row>
                 <Col xs={4}>
-                    What are the parking areas available near a particular Sports and Recreation Club within distance of
+                    What are the parking areas available near a particular Sports and Recreation Club within given distance (Sorted by distance)
                 </Col>
                 <Col xs={2} >
                     <Dropdown onSelect={(eventKey)=>handleOnSelect(eventKey)}>

@@ -27,8 +27,9 @@
                 53.309945952977557 .
 
 <http://www.example.org/sports/record/4877>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -56,8 +57,9 @@
                 53.337937504184936 .
 
 <http://www.example.org/sports/record/4813>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -93,8 +95,9 @@
                 1 .
 
 <http://www.example.org/multiuse/record/5349>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -131,14 +134,14 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/sports/contact/4913>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "4514844" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "4514844" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "GREENHILLS ROAD, DUBLIN 24" .
 
 <http://www.example.org/multiuse/contact/10406>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4527011" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4527011" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "Fettercairn, Tallaght, Dublin 24" .
 
@@ -157,8 +160,9 @@
                 "Model Railway Community Club" .
 
 <http://www.example.org/multiuse/record/9607>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-10-01T11:14:39.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-10-01T11:14:39.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -210,8 +214,9 @@
                 "Yes" .
 
 <http://www.example.org/multiuse/record/5363>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -236,8 +241,8 @@
                 "Yes" .
 
 <http://www.example.org/multiuse/contact/4830>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4514455" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4514455" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "FIRHOUSE COMMUNITY AND LEISURE CENTRE, BALLYCULLEN DRIVE, DUBLIN 24 Eircode D24YYOH" .
 
@@ -297,8 +302,8 @@
                 "WELLINGTON LANE, DUBLIN 6W" .
 
 <http://www.example.org/multiuse/contact/socialmedia/5293>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "dgrahamgvale@eircom.net" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "dgrahamgvale@eircom.net" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Quarryvale-Community-Leisure-Centre-438092496358705/" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -307,8 +312,8 @@
                 "na" .
 
 <http://www.example.org/multiuse/contact/5283>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4521028" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4521028" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "CHURCH GROVE, DUBLIN 24" .
 
@@ -390,8 +395,9 @@
                 "http://www.gbfc.ie/" .
 
 <http://www.example.org/sports/record/4858>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -420,8 +426,9 @@
                 "Golf" .
 
 <http://www.example.org/sports/record/4826>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -444,8 +451,9 @@
                 "No" .
 
 <http://www.example.org/sports/record/4872>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -472,8 +480,9 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/sports/record/4840>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -492,14 +501,15 @@
                 <http://www.example.org/sports/contact/socialmedia/4840> .
 
 <http://www.example.org/multiuse/contact/5306>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4586134/5" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4586134/5" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "MAIN STREET, RATHCOOLE, CO. DUBLIN" .
 
 <http://www.example.org/sports/record/29620>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2016-04-27T10:45:16.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2016-04-27T10:45:16.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -534,8 +544,8 @@
                 2 .
 
 <http://www.example.org/multiuse/contact/socialmedia/9607>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "mjobstowncc@eircom.net" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "mjobstowncc@eircom.net" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "na" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -551,8 +561,9 @@
                 53.292578550526734 .
 
 <http://www.example.org/multiuse/record/5344>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -593,14 +604,15 @@
                 53.281815930408918 .
 
 <http://www.example.org/sports/contact/4838>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "(01) 628 0246" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "(01) 628 0246" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "CELBRIDGE ROAD, LUCAN, CO. DUBLIN" .
 
 <http://www.example.org/multiuse/record/5312>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -638,8 +650,8 @@
                 4 .
 
 <http://www.example.org/sports/contact/4884>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4626323" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4626323" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "THE ANDY MOORE MEMORIAL SPORTS CLUB, KILTIPPER ROAD, DUBLIN 24" .
 
@@ -709,8 +721,8 @@
                 53.356302337497702 .
 
 <http://www.example.org/sports/contact/4820>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "192/194 TEMPLEOGUE ROAD, DUBLIN 6W" .
 
@@ -750,8 +762,9 @@
                 53.300487071459877 .
 
 <http://www.example.org/sports/record/4807>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -782,8 +795,9 @@
                 53.292727792216233 .
 
 <http://www.example.org/sports/record/4821>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -815,8 +829,8 @@
                 "Yes" .
 
 <http://www.example.org/multiuse/contact/5333>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4111511 Eircode D22W598" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4111511 Eircode D22W598" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "KNOCKMITTEN PARK, CLONDALKIN, DUBLIN 22" .
 
@@ -867,8 +881,9 @@
                 3 .
 
 <http://www.example.org/multiuse/record/15208>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-10-22T10:01:16.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-10-22T10:01:16.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -901,8 +916,9 @@
                 "Lugg Hill, Saggart, Co. Dublin" .
 
 <http://www.example.org/multiuse/record/4830>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -958,8 +974,9 @@
                 53.310630726743511 .
 
 <http://www.example.org/sports/record/4922>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -992,8 +1009,9 @@
                 "ACTIVITIES OF SPORT CLUBS" .
 
 <http://www.example.org/sports/record/14810>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-10-22T09:57:01.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-10-22T09:57:01.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1012,8 +1030,9 @@
                 <http://www.example.org/sports/contact/socialmedia/14810> .
 
 <http://www.example.org/multiuse/record/5283>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1104,8 +1123,9 @@
                 53.289216842863567 .
 
 <http://www.example.org/sports/record/4834>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1127,8 +1147,8 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/contact/socialmedia/5324>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "manager@stmarksyouthclub.ie" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "manager@stmarksyouthclub.ie" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
                 "na" ;
         <http://www.semanticweb.org/KDE#hasWebsite>
@@ -1144,8 +1164,8 @@
                 "No" .
 
 <http://www.example.org/sports/contact/4902>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "UNIT 3, BOLBROOK ENTERPRISE CENTRE, AVONMORE ROAD, DUBLIN 24" .
 
@@ -1157,8 +1177,9 @@
                 "Yes" .
 
 <http://www.example.org/multiuse/record/5306>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1198,13 +1219,6 @@
 <http://www.example.org/sports/facilities/4810>
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
-<http://www.example.org/parking/coordinate/67>
-        a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
-        <http://www.semanticweb.org/KDE#hasX>
-                -6.461541370907708 ;
-        <http://www.semanticweb.org/KDE#hasY>
-                53.230975454199495 .
-
 <http://www.example.org/sports/activities/4922>
         a       <http://www.semanticweb.org/KDE#Activities> ;
         <http://www.semanticweb.org/KDE#hasPrimaryActivity>
@@ -1212,9 +1226,17 @@
         <http://www.semanticweb.org/KDE#hasSummaryActivities>
                 "ACTIVITIES OF SPORT CLUBS" .
 
+<http://www.example.org/parking/coordinate/67>
+        a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
+        <http://www.semanticweb.org/KDE#hasX>
+                -6.461541370907708 ;
+        <http://www.semanticweb.org/KDE#hasY>
+                53.230975454199495 .
+
 <http://www.example.org/sports/record/14809>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-10-22T09:56:04.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-10-22T09:56:04.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1275,8 +1297,8 @@
                 "LIMEKILN LANE, PERRYSTOWN, DUBLIN 12" .
 
 <http://www.example.org/multiuse/contact/socialmedia/5282>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "perrystownmanor@eircom.net" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "perrystownmanor@eircom.net" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Perrystown-Community-Centre-126782084096859/" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -1288,8 +1310,8 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/sports/contact/4860>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "353 (0)1 458 0522" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "353 (0)1 458 0522" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "KILTEEL ROAD, JOHNSTOWN, RATHCOOLE, CO. DUBLIN" .
 
@@ -1313,8 +1335,8 @@
                 53.272564009393541 .
 
 <http://www.example.org/multiuse/contact/socialmedia/4916>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "kfrc.exec@gmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "kfrc.exec@gmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Kilnamanagh-Family-Recreation-Centre-109659802471632/" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -1370,8 +1392,9 @@
                 53.287280101097359 .
 
 <http://www.example.org/sports/record/4815>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1411,14 +1434,15 @@
                 "Griffeen Park, Lucan, Co. Dublin" .
 
 <http://www.example.org/multiuse/contact/5327>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "4589209" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "4589209" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "MAIN STREET UPPER, NEWCASTLE, CO. DUBLIN" .
 
 <http://www.example.org/sports/record/4861>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1489,8 +1513,9 @@
                 "MAIN ROAD, FOREST HILLS, RATHCOOLE, CO. DUBLIN" .
 
 <http://www.example.org/multiuse/record/5333>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1639,8 +1664,9 @@
                 "Pitch and Putt, Golf" .
 
 <http://www.example.org/sports/record/4828>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1659,8 +1685,8 @@
                 <http://www.example.org/sports/contact/socialmedia/4828> .
 
 <http://www.example.org/sports/contact/6808>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 494 7950" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 494 7950" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "Sancta Maria" .
 
@@ -1670,14 +1696,15 @@
                 "Yes" .
 
 <http://www.example.org/multiuse/contact/5308>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353 876392933/4596362" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353 876392933/4596362" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "CASTLEKELLY, BOHERNABREENA, CO. DUBLIN Eircode D24EC93" .
 
 <http://www.example.org/sports/record/4842>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1700,8 +1727,8 @@
                 "Yes" .
 
 <http://www.example.org/multiuse/contact/socialmedia/4809>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "greenhillscommunitycentre@eircom.ie" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "greenhillscommunitycentre@eircom.ie" ;
         <http://www.semanticweb.org/KDE#hasWebsite>
                 "http://www.greenhillscommunitycentre.ie/" .
 
@@ -1718,8 +1745,9 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/sports/record/4810>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1759,8 +1787,8 @@
                 "http://www.tallaghtac.ie/" .
 
 <http://www.example.org/multiuse/contact/socialmedia/5300>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "neilstowncc@gmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "neilstowncc@gmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "na" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -1776,8 +1804,8 @@
                 "Yes" .
 
 <http://www.example.org/multiuse/contact/5298>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4576734 Eircode D22DY68" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4576734 Eircode D22DY68" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "BAWNOGUE ROAD, DUBLIN 22" .
 
@@ -1825,8 +1853,8 @@
                 4 .
 
 <http://www.example.org/sports/contact/4854>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+3531 493 1201" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+3531 493 1201" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "STOCKING LANE, DUBLIN 16" .
 
@@ -1845,14 +1873,14 @@
                 53.318141452718329 .
 
 <http://www.example.org/sports/contact/4822>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353 1 406 3707 (occasional)" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353 1 406 3707 (occasional)" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "TEMPLEOGUE HOUSE, TEMPLEOGUE ROAD, DUBLIN 6W" .
 
 <http://www.example.org/multiuse/contact/socialmedia/5290>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "na" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "na" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "na" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -1908,8 +1936,9 @@
                 "GAA Sports" .
 
 <http://www.example.org/sports/record/4887>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1940,8 +1969,9 @@
                 "http://www.eaglerifleandpistolclub.com/" .
 
 <http://www.example.org/sports/record/4855>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -1960,8 +1990,9 @@
                 <http://www.example.org/sports/contact/socialmedia/4855> .
 
 <http://www.example.org/sports/record/10407>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-10-06T14:10:22.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-10-06T14:10:22.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2009,8 +2040,9 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/record/5327>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2046,8 +2078,8 @@
                 2 .
 
 <http://www.example.org/sports/contact/4899>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "Eircode D22Y9W9" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "Eircode D22Y9W9" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "UNIT 12, NEILSTOWN ROAD, DUBLIN 22" .
 
@@ -2101,14 +2133,14 @@
                 53.284443201534145 .
 
 <http://www.example.org/sports/contact/4835>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353 1 493 1082" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353 1 493 1082" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "EDMONDSTOWN ROAD, DUBLIN 16" .
 
 <http://www.example.org/multiuse/contact/5293>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 6233417 EirCode D22DY68" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 6233417 EirCode D22DY68" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "GREENFORT GARDENS, QUARRYVALE, CLONDAKIN, DUBLIN 22" .
 
@@ -2150,8 +2182,8 @@
                 "ACTIVITIES OF SPORT CLUBS" .
 
 <http://www.example.org/sports/contact/socialmedia/4884>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "info@postal.ie" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "info@postal.ie" ;
         <http://www.semanticweb.org/KDE#hasWebsite>
                 "http://www.postal.ie/" .
 
@@ -2192,8 +2224,9 @@
                 "http://www.templeoguetennis.com/" .
 
 <http://www.example.org/sports/record/4868>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2214,8 +2247,9 @@
                 "No" .
 
 <http://www.example.org/sports/record/29220>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2016-04-27T09:59:44.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2016-04-27T09:59:44.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2234,8 +2268,9 @@
                 <http://www.example.org/sports/contact/socialmedia/29220> .
 
 <http://www.example.org/sports/record/4836>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2264,14 +2299,15 @@
                 53.293435514017027 .
 
 <http://www.example.org/sports/contact/30021>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "1 494 1993" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "1 494 1993" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "Stackstown Golf Club Kellystown Road Rathfarnham Dublin 16" .
 
 <http://www.example.org/sports/record/4850>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2309,8 +2345,9 @@
                 "Glenanne Park, St. Marks Community School, Tallaght 24." .
 
 <http://www.example.org/multiuse/record/5308>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2351,8 +2388,8 @@
                 2 .
 
 <http://www.example.org/sports/contact/10407>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "462 7214" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "462 7214" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "Fettercairn Road, Tallaght, Dublin 24" .
 
@@ -2370,8 +2407,8 @@
                 1 .
 
 <http://www.example.org/sports/contact/5325>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "BOLBROOK ENTERPRISE CENTRE, AVONMORE ROAD, DUBLIN 24" .
 
@@ -2388,8 +2425,8 @@
                 53.345378108886145 .
 
 <http://www.example.org/multiuse/contact/socialmedia/5284>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "hildakill@gmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "hildakill@gmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "http://www.facebook.com/killinarden.centre" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -2411,8 +2448,9 @@
                 5 .
 
 <http://www.example.org/multiuse/record/5298>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2446,8 +2484,8 @@
                 "Yes" .
 
 <http://www.example.org/sports/contact/4862>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "0873952548" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "0873952548" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "BALLINASCORNEY LOWER, CO. DUBLIN" .
 
@@ -2462,8 +2500,9 @@
                 "GAA Club" .
 
 <http://www.example.org/sports/record/29219>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2016-04-27T09:53:32.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2016-04-27T09:53:32.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2503,8 +2542,9 @@
                 "Parent & Toddler group, Creche, Retired Active Mens Group, Ladies Social Group, Girl Guides, Lady birds, Brownies, Badminton ladies, Irish dancing, Stage Door drama. Contact centre for more activities" .
 
 <http://www.example.org/multiuse/record/10406>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-10-06T14:10:02.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-10-06T14:10:02.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2550,8 +2590,9 @@
                 53.292912620558319 .
 
 <http://www.example.org/sports/record/4849>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2609,16 +2650,17 @@
                 3 .
 
 <http://www.example.org/multiuse/contact/socialmedia/5339>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "whitechurchcyc@yahoo.ie" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "whitechurchcyc@yahoo.ie" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Whitechurch-Community-Youth-Centre-110109795764484/" ;
         <http://www.semanticweb.org/KDE#hasWebsite>
                 "No" .
 
 <http://www.example.org/sports/record/4863>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2644,8 +2686,8 @@
                 53.354810148130092 .
 
 <http://www.example.org/multiuse/contact/socialmedia/5307>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "brittascommunity@gmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "brittascommunity@gmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "na" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -2654,8 +2696,9 @@
                 "http://brittasresidents.blogspot.ie/" .
 
 <http://www.example.org/sports/record/4831>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2674,8 +2717,8 @@
                 <http://www.example.org/sports/contact/socialmedia/4831> .
 
 <http://www.example.org/multiuse/contact/socialmedia/5353>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "theparkcc@yahoo.ie" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "theparkcc@yahoo.ie" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/The-Park-Community-Centre-229471990535604/" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -2692,14 +2735,14 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/sports/contact/29220>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "087 6755474" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "087 6755474" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "Jobstown, Tallaght, Dublin 24" .
 
 <http://www.example.org/multiuse/contact/socialmedia/5321>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "reception@bycc.ie" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "reception@bycc.ie" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Brookfield-Youth-Community-Centre-213176765459885/" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -2750,8 +2793,8 @@
                 1 .
 
 <http://www.example.org/sports/contact/4875>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01-6219514" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01-6219514" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "LUCAN ROAD, LEIXLIP, CO. DUBLIN" .
 
@@ -2763,8 +2806,9 @@
                 53.290455751486682 .
 
 <http://www.example.org/sports/record/4918>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2793,8 +2837,8 @@
                 53.281273065467836 .
 
 <http://www.example.org/sports/contact/4843>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "(01) 4519916" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "(01) 4519916" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "KILTIPPER ROAD, DUBLIN 24" .
 
@@ -2844,8 +2888,9 @@
                 53.315499416828338 .
 
 <http://www.example.org/multiuse/record/5293>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2934,8 +2979,8 @@
                 "Hockey" .
 
 <http://www.example.org/sports/contact/29219>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "(01) 4641043" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "(01) 4641043" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "New Nangor Road, Clondalkin, Dublin 22, Co. Dublin, Ireland" .
 
@@ -2954,8 +2999,9 @@
                 "Horse Project" .
 
 <http://www.example.org/sports/record/4844>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -2976,8 +3022,9 @@
                 "Yes" .
 
 <http://www.example.org/sports/record/4890>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3012,8 +3059,8 @@
                 1 .
 
 <http://www.example.org/multiuse/contact/socialmedia/5334>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "john.doyle@bcyc.ie" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "john.doyle@bcyc.ie" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Ballyroan-Community-and-Youth-Centre-107534199341881/" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -3029,8 +3076,8 @@
                 "Yes" .
 
 <http://www.example.org/multiuse/contact/5324>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4527913" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4527913" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "FETTERCAIRN HOUSE, COOKSTOWN LANE, FETTERCAIRN, TALLAGHT, DUBLIN 24" .
 
@@ -3046,13 +3093,6 @@
         <http://www.semanticweb.org/KDE#hasAddress>
                 "GREENHILLS ROAD, DUBLIN 24" .
 
-<http://www.example.org/parking/coordinate/1>
-        a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
-        <http://www.semanticweb.org/KDE#hasX>
-                -6.39508849200196 ;
-        <http://www.semanticweb.org/KDE#hasY>
-                53.323913849605525 .
-
 <http://www.example.org/sports/activities/4918>
         a       <http://www.semanticweb.org/KDE#Activities> ;
         <http://www.semanticweb.org/KDE#hasPrimaryActivity>
@@ -3060,14 +3100,21 @@
         <http://www.semanticweb.org/KDE#hasSummaryActivities>
                 "ACTIVITIES OF SPORT CLUBS" .
 
+<http://www.example.org/parking/coordinate/1>
+        a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
+        <http://www.semanticweb.org/KDE#hasX>
+                -6.39508849200196 ;
+        <http://www.semanticweb.org/KDE#hasY>
+                53.323913849605525 .
+
 <http://www.example.org/sports/contact/socialmedia/4915>
         a       <http://www.semanticweb.org/KDE#OnlinePresence> ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/kilnamanagh.boxingclub" .
 
 <http://www.example.org/multiuse/contact/socialmedia/5302>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "westsidebc@hotmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "westsidebc@hotmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "na" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -3076,8 +3123,9 @@
                 "na" .
 
 <http://www.example.org/sports/record/10806>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-10-07T10:42:08.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-10-07T10:42:08.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3125,8 +3173,8 @@
                 2 .
 
 <http://www.example.org/sports/contact/4856>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 6210201" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 6210201" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "PEAMOUNT LANE, NEWCASTLE, CO. DUBLIN" .
 
@@ -3163,14 +3211,14 @@
                 53.351893209625864 .
 
 <http://www.example.org/sports/contact/4824>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "490 5255" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "490 5255" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "WELLINGTON LANE, DUBLIN 6W" .
 
 <http://www.example.org/multiuse/contact/5282>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4515527" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4515527" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "LIMEKILN LANE, PERRYSTOWN, DUBLIN 12" .
 
@@ -3189,8 +3237,9 @@
                 53.299401854626105 .
 
 <http://www.example.org/sports/record/4913>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3214,8 +3263,8 @@
                 "http://www.lucansarsfields.ie/" .
 
 <http://www.example.org/multiuse/contact/4916>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01-4521199" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01-4521199" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "TREEPARK ROAD, DUBLIN 24" .
 
@@ -3260,8 +3309,9 @@
                 "Football, Soccer" .
 
 <http://www.example.org/sports/record/30024>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2016-04-27T11:20:36.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2016-04-27T11:20:36.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3287,8 +3337,9 @@
                 53.345376450625771 .
 
 <http://www.example.org/sports/record/4825>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3307,8 +3358,8 @@
                 <http://www.example.org/sports/contact/socialmedia/4825> .
 
 <http://www.example.org/sports/contact/4925>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353 1 493 2889" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353 1 493 2889" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "WHITECHURCH ROAD, DUBLIN 16" .
 
@@ -3358,19 +3409,19 @@
         <http://www.semanticweb.org/KDE#hasY>
                 53.304205698757706 .
 
-<http://www.example.org/parking/coordinate/58>
-        a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
-        <http://www.semanticweb.org/KDE#hasX>
-                -6.415119088257493 ;
-        <http://www.semanticweb.org/KDE#hasY>
-                53.304565074304818 .
-
 <http://www.example.org/sports/activities/4913>
         a       <http://www.semanticweb.org/KDE#Activities> ;
         <http://www.semanticweb.org/KDE#hasPrimaryActivity>
                 "Sports and Recreation Clubs" ;
         <http://www.semanticweb.org/KDE#hasSummaryActivities>
                 "Athlethics Club Sports" .
+
+<http://www.example.org/parking/coordinate/58>
+        a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
+        <http://www.semanticweb.org/KDE#hasX>
+                -6.415119088257493 ;
+        <http://www.semanticweb.org/KDE#hasY>
+                53.304565074304818 .
 
 <http://www.example.org/parking/record/42>
         a       <http://www.semanticweb.org/KDE#ParkingSpace> ;
@@ -3386,8 +3437,8 @@
                 2 .
 
 <http://www.example.org/sports/contact/4883>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "353 (01) 4589591" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "353 (01) 4589591" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "COOLMINE, SAGGART, CO. DUBLIN" .
 
@@ -3404,8 +3455,9 @@
                 53.348175993344988 .
 
 <http://www.example.org/sports/record/4926>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3505,8 +3557,9 @@
                 "No" .
 
 <http://www.example.org/sports/record/29222>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2016-04-27T11:15:05.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2016-04-27T11:15:05.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3525,8 +3578,9 @@
                 <http://www.example.org/sports/contact/socialmedia/29222> .
 
 <http://www.example.org/sports/record/4838>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3555,8 +3609,9 @@
                 "Dance Groups, Prayer Groups, Project Arts & Crafts, Irish Playschool, Senior Citizens, Irish Dancing, Hip Hop, Mother & Toddler Group" .
 
 <http://www.example.org/sports/record/4884>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3584,8 +3639,8 @@
                 53.273064395952055 .
 
 <http://www.example.org/sports/contact/30023>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4578020/25" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4578020/25" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "Ballyowen Park  Lucan  Co Dublin" .
 
@@ -3597,14 +3652,15 @@
                 53.276262149571764 .
 
 <http://www.example.org/multiuse/contact/4809>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353 1 450 0165" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353 1 450 0165" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "SAINT JOSEPH'S ROAD, GREENHILLS, DUBLIN 12" .
 
 <http://www.example.org/sports/record/4820>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3648,8 +3704,8 @@
                 "ACTIVITIES OF SPORT CLUBS" .
 
 <http://www.example.org/multiuse/contact/socialmedia/5310>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "stronansdeansrath@hotmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "stronansdeansrath@hotmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "na" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -3661,14 +3717,15 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/contact/5300>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4575943 Eircode D22Y9W9" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4575943 Eircode D22Y9W9" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "UNIT 12, NEILSTOWN ROAD, DUBLIN 22" .
 
 <http://www.example.org/multiuse/record/5324>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3743,8 +3800,8 @@
                 10 .
 
 <http://www.example.org/sports/contact/4864>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "353 1 459 3157" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "353 1 459 3157" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "BELGARD ROAD, DUBLIN 22" .
 
@@ -3768,8 +3825,8 @@
                 "Golf Club" .
 
 <http://www.example.org/multiuse/contact/5290>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "4943991" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "4943991" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "Irdrour Aur Nua, Knocklyon Rd. Templeogue, Dublin 16" .
 
@@ -3824,8 +3881,9 @@
                 53.259951668289538 .
 
 <http://www.example.org/multiuse/record/5282>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3874,8 +3932,9 @@
                 "Tennis Club" .
 
 <http://www.example.org/multiuse/record/4916>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -3915,8 +3974,8 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/contact/socialmedia/5355>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "info@pcyc.ie" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "info@pcyc.ie" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "http://www.facebook.com/PalmerstownCommunityandYouthCentre" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -4001,8 +4060,8 @@
                 2 .
 
 <http://www.example.org/sports/contact/4877>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 452 0911" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 452 0911" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "KILTALOWN, TALLAGHT, DUBLIN 24" .
 
@@ -4024,8 +4083,9 @@
                 53.277857891730577 .
 
 <http://www.example.org/sports/record/14808>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-10-22T09:50:11.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-10-22T09:50:11.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4099,8 +4159,9 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/sports/record/4902>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4158,8 +4219,9 @@
                 53.325238164198801 .
 
 <http://www.example.org/sports/record/4892>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4178,8 +4240,9 @@
                 <http://www.example.org/sports/contact/socialmedia/4892> .
 
 <http://www.example.org/sports/record/4814>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4211,8 +4274,9 @@
                 11 .
 
 <http://www.example.org/sports/record/4860>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4238,8 +4302,8 @@
                 53.356914049579316 .
 
 <http://www.example.org/multiuse/contact/7206>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "858371139" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "858371139" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "Belgard Road, Tallaght, Dublin 24" .
 
@@ -4251,8 +4315,8 @@
                 "Active Retired, Whist, Bridge, Bingo, LineDancing, Ladies Club, Karate, Weightwatchers, Yoga, Art, English & History, Badminton, Kumon Homework Club, Tai Chi, An Cor Choir, Irish Dancing, Youth Club" .
 
 <http://www.example.org/multiuse/contact/socialmedia/5304>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "rowlaghcommunitycentre@eircom.ie" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "rowlaghcommunitycentre@eircom.ie" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/pages/Rowlagh-Community-Centre/497024990332034" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -4288,8 +4352,9 @@
                 1 .
 
 <http://www.example.org/multiuse/record/4809>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4335,8 +4400,8 @@
                 10 .
 
 <http://www.example.org/sports/contact/4858>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 6281570" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 6281570" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "12TH LOCK NEWCASTLE ROAD, LUCAN, CO. DUBLIN" .
 
@@ -4353,13 +4418,6 @@
         <http://www.semanticweb.org/KDE#numberOfSpaces>
                 2 .
 
-<http://www.example.org/parking/coordinate/47>
-        a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
-        <http://www.semanticweb.org/KDE#hasX>
-                -6.370907609034191 ;
-        <http://www.semanticweb.org/KDE#hasY>
-                53.355804938381105 .
-
 <http://www.example.org/sports/activities/4902>
         a       <http://www.semanticweb.org/KDE#Activities> ;
         <http://www.semanticweb.org/KDE#hasPrimaryActivity>
@@ -4367,21 +4425,29 @@
         <http://www.semanticweb.org/KDE#hasSummaryActivities>
                 "ACTIVITIES OF SPORT CLUBS" .
 
+<http://www.example.org/parking/coordinate/47>
+        a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
+        <http://www.semanticweb.org/KDE#hasX>
+                -6.370907609034191 ;
+        <http://www.semanticweb.org/KDE#hasY>
+                53.355804938381105 .
+
 <http://www.example.org/sports/contact/4826>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "4903566" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "4903566" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "WELLINGTON LANE, DUBLIN 6W" .
 
 <http://www.example.org/multiuse/contact/5284>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4526617" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4526617" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "KILLINARDEN HEIGHTS, TALLAGHT, DUBLIN 24 EIrcode d134567" .
 
 <http://www.example.org/multiuse/record/5300>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4426,8 +4492,8 @@
                 2 .
 
 <http://www.example.org/sports/contact/4872>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "353 (0)1 6268491" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "353 (0)1 6268491" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "LUCAN, CO. DUBLIN" .
 
@@ -4439,8 +4505,9 @@
                 53.291399258146818 .
 
 <http://www.example.org/sports/record/4915>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4459,8 +4526,8 @@
                 <http://www.example.org/sports/contact/socialmedia/4915> .
 
 <http://www.example.org/sports/contact/socialmedia/4875>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "clubhouse@liffeyvalleypar3golf.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "clubhouse@liffeyvalleypar3golf.com" ;
         <http://www.semanticweb.org/KDE#hasWebsite>
                 "http://liffeyvalleypar3golf.com/" .
 
@@ -4479,14 +4546,14 @@
                 53.269040789696518 .
 
 <http://www.example.org/sports/contact/4840>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353 1 452 1609" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353 1 452 1609" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "MCGEE PARK, COOKSTOWN ROAD, DUBLIN 24" .
 
 <http://www.example.org/sports/contact/socialmedia/4843>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "glenvillepnp@gmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "glenvillepnp@gmail.com" ;
         <http://www.semanticweb.org/KDE#hasWebsite>
                 "http://www.glenvillepitchandputtclub.com/" .
 
@@ -4498,8 +4565,9 @@
                 53.296088893748966 .
 
 <http://www.example.org/sports/record/16010>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2016-01-05T11:50:57.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2016-01-05T11:50:57.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4534,8 +4602,9 @@
                 "GAA Sports" .
 
 <http://www.example.org/multiuse/record/5290>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4570,8 +4639,9 @@
                 "http://www.stmaryscollegerfc.com/" .
 
 <http://www.example.org/sports/record/4859>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4604,8 +4674,8 @@
                 "ACTIVITIES OF SPORT CLUBS" .
 
 <http://www.example.org/multiuse/contact/socialmedia/5349>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "kingswood13@eircom.net" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "kingswood13@eircom.net" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Kingswood-Community-Centre-Dublin-24-110951852299194/" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -4617,14 +4687,15 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/contact/5339>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353 1 4457035" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353 1 4457035" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "WHITECHURCH HEIGHTS, DUBLIN 16 Eircode K78X6V9" .
 
 <http://www.example.org/sports/record/4873>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4653,8 +4724,9 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/sports/record/4841>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4673,14 +4745,14 @@
                 <http://www.example.org/sports/contact/socialmedia/4841> .
 
 <http://www.example.org/multiuse/contact/5307>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "0879869273" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "0879869273" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "BLESSINGTON ROAD, TALLAGHT, DUBLIN 24" .
 
 <http://www.example.org/multiuse/contact/socialmedia/5363>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "staenguscomcen@hotmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "staenguscomcen@hotmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "na" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -4689,8 +4761,8 @@
                 "na" .
 
 <http://www.example.org/multiuse/contact/5353>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353 1 462 0042" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353 1 462 0042" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "PARKLANDS ROAD, DUBLIN 24" .
 
@@ -4714,8 +4786,8 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/contact/5321>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4528404" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4528404" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "BROOKFIELD ROAD, TALLAGHT, DUBLIN 24" .
 
@@ -4762,8 +4834,8 @@
                 53.32373431028666 .
 
 <http://www.example.org/sports/contact/4807>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "CARPO PARK, NAAS ROAD, DUBLIN 22" .
 
@@ -4797,8 +4869,9 @@
                 4 .
 
 <http://www.example.org/sports/record/6808>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-09-14T16:10:29.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-09-14T16:10:29.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4847,8 +4920,8 @@
                 53.273970714577224 .
 
 <http://www.example.org/sports/contact/4821>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353 1 494 7950" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353 1 494 7950" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "FIRHOUSE ROAD, DUBLIN 16" .
 
@@ -4888,8 +4961,9 @@
                 "GAA Club Sports" .
 
 <http://www.example.org/sports/record/29224>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2016-04-29T14:59:33.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2016-04-29T14:59:33.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4929,8 +5003,8 @@
                 "IT Training, Martial Arts, Indoor Football Training, Creche, After Schools Club, Youth Club, Fitness Class, Slimming World, Dance Class" .
 
 <http://www.example.org/multiuse/contact/socialmedia/15208>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "seinomuineachain@gmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "seinomuineachain@gmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/pages/Ballyowen-Castle-Community-Centre-Lucan/1550704335247281" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -4939,8 +5013,9 @@
                 "na" .
 
 <http://www.example.org/sports/record/4854>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4968,8 +5043,9 @@
                 "No" .
 
 <http://www.example.org/sports/record/30021>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2016-04-27T10:19:09.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2016-04-27T10:19:09.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -4988,14 +5064,15 @@
                 <http://www.example.org/sports/contact/socialmedia/30021> .
 
 <http://www.example.org/sports/contact/16010>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "(01) 459 9822" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "(01) 459 9822" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "Greenhills Road" .
 
 <http://www.example.org/sports/record/4822>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5014,8 +5091,8 @@
                 <http://www.example.org/sports/contact/socialmedia/4822> .
 
 <http://www.example.org/multiuse/contact/socialmedia/5344>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "manager@dominicscc.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "manager@dominicscc.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Dominics-Community-Centre-200643206619031/" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -5032,14 +5109,15 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/contact/5334>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01-4958579" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01-4958579" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "MARIAN ROAD, DUBLIN 14 Eircode D14R7Y7" .
 
 <http://www.example.org/sports/record/30417>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2016-04-27T10:37:41.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2016-04-27T10:37:41.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5067,8 +5145,8 @@
                 "Yes" .
 
 <http://www.example.org/sports/contact/4922>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "LORETO HIGH SCHOOL, GRANGE ROAD, DUBLIN 14" .
 
@@ -5085,8 +5163,8 @@
                 "Youth club, Speech & Drama, Lyons Den, Flower Arranging, Spanish, Yoga, Pilates, Zumba, IrishDancing, Karate, Art, Badminton, Basketball, Circuit Training" .
 
 <http://www.example.org/multiuse/contact/socialmedia/5312>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "na" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "na" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Earlsfort-Resident-Centre-Lucan-co-Dublin-186661661365133/" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -5098,8 +5176,8 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/contact/5302>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4621713" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4621713" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "BROOKVIEW AVENUE, DUBLIN 24" .
 
@@ -5133,8 +5211,9 @@
                 10 .
 
 <http://www.example.org/multiuse/record/7206>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-09-15T13:49:52.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-09-15T13:49:52.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5186,8 +5265,8 @@
                 53.336314495814889 .
 
 <http://www.example.org/sports/contact/4834>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "MILL LANE, DUBLIN 20" .
 
@@ -5216,8 +5295,9 @@
                 "http://saggartpitchandputt.com/" .
 
 <http://www.example.org/multiuse/record/5284>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5256,8 +5336,9 @@
                 "Golf" .
 
 <http://www.example.org/sports/record/4899>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5297,8 +5378,9 @@
                 "Bridge" .
 
 <http://www.example.org/sports/record/4867>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5317,8 +5399,9 @@
                 <http://www.example.org/sports/contact/socialmedia/4867> .
 
 <http://www.example.org/sports/record/4835>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5339,8 +5422,9 @@
                 "Yes" .
 
 <http://www.example.org/sports/record/4881>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5366,8 +5450,8 @@
                 53.260057554720724 .
 
 <http://www.example.org/sports/contact/29224>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4505966" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4505966" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "Whitehall Road, Dublin 12" .
 
@@ -5382,8 +5466,9 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/record/5339>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5427,8 +5512,9 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/record/5307>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5474,8 +5560,8 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/contact/socialmedia/4830>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "fclccentre@gmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "fclccentre@gmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Firhouse-Community-Leisure-Centre" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -5484,8 +5570,9 @@
                 "http://www.fclc.ie" .
 
 <http://www.example.org/multiuse/record/5353>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5524,8 +5611,8 @@
                 "http://www.stjosephsboxing.com" .
 
 <http://www.example.org/multiuse/contact/socialmedia/7206>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "bhcraltd@gmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "bhcraltd@gmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Belgard-Heights-Youth-Community-Centre-119169584809301/" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -5534,8 +5621,9 @@
                 "na" .
 
 <http://www.example.org/multiuse/record/5321>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5592,8 +5680,8 @@
                 "LIMEKILN LANE, PERRYSTOWN, DUBLIN 12" .
 
 <http://www.example.org/multiuse/contact/socialmedia/5283>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "tymonbawn@gmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "tymonbawn@gmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Tymon-Bawn-Community-Centre-247246278685375/" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -5625,8 +5713,8 @@
                 53.361484897611533 .
 
 <http://www.example.org/sports/contact/4861>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "0876241944" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "0876241944" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "BOHERNABREENA, CO. DUBLIN" .
 
@@ -5696,8 +5784,9 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/sports/record/5325>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5729,14 +5818,15 @@
                 1 .
 
 <http://www.example.org/multiuse/contact/15208>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01-6211088" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01-6211088" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "Ballyowen Lane, Lucan, Co Dublin Eircode D16XR13" .
 
 <http://www.example.org/sports/record/4862>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5831,8 +5921,8 @@
                 14 .
 
 <http://www.example.org/multiuse/contact/5310>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4578211" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4578211" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "SAINT CUTHBERTS ROAD, DEANSRATH, CLONDALKIN, DUBLIN 22" .
 
@@ -5844,8 +5934,9 @@
                 "Citizens information, Free legal aid, MABS, Homestart Ireland, Liffey Sound FM, Dublin West disability group, Irish Dancing, Indian Cultural group, Pregancy Yoga, Weight Watchers, Community meetings" .
 
 <http://www.example.org/multiuse/record/5334>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5902,8 +5993,9 @@
                 "MARLEY PARK, GRANGE ROAD, DUBLIN 16" .
 
 <http://www.example.org/multiuse/record/5302>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -5951,8 +6043,8 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/sports/contact/socialmedia/4877>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "hazlegrovegolfclub@gmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "hazlegrovegolfclub@gmail.com" ;
         <http://www.semanticweb.org/KDE#hasWebsite>
                 "http://www.hazelgrove.ie/" .
 
@@ -6052,8 +6144,9 @@
                 "Dancing, Gymnastics, Youth Groups, Community Groups" .
 
 <http://www.example.org/sports/record/4875>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6072,8 +6165,9 @@
                 <http://www.example.org/sports/contact/socialmedia/4875> .
 
 <http://www.example.org/sports/record/4843>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6094,14 +6188,15 @@
                 "No" .
 
 <http://www.example.org/multiuse/contact/5355>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 6166981" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 6166981" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "PALMERSTOWN SHOPPING CENTRE, KENNELSFORT ROAD, DUBLIN 20" .
 
 <http://www.example.org/sports/record/4811>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6138,8 +6233,8 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/contact/socialmedia/5333>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "knockmittencommunity@hotmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "knockmittencommunity@hotmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/pages/Knockmitten-Community-Centre/283224758401227" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -6177,8 +6272,8 @@
                 1 .
 
 <http://www.example.org/sports/contact/4887>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "4592625" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "4592625" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "CORKAGH DEMESNE, DUBLIN 22" .
 
@@ -6196,14 +6291,14 @@
                 2 .
 
 <http://www.example.org/sports/contact/4855>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "(01) 458 2183" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "(01) 458 2183" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "SLADEVALLEY, BRITTAS, DUBLIN 24" .
 
 <http://www.example.org/sports/contact/socialmedia/16010>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "info@astropark.ie" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "info@astropark.ie" ;
         <http://www.semanticweb.org/KDE#hasWebsite>
                 "http://astropark.ie/" .
 
@@ -6240,8 +6335,8 @@
                 53.265356006114693 .
 
 <http://www.example.org/sports/contact/socialmedia/4826>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "secretary.faughshurling.dublin@gaa.ie" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "secretary.faughshurling.dublin@gaa.ie" ;
         <http://www.semanticweb.org/KDE#hasWebsite>
                 "http://faughs.ie/" .
 
@@ -6253,8 +6348,9 @@
                 53.29196820271504 .
 
 <http://www.example.org/sports/record/4912>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6318,8 +6414,9 @@
                 "Rugby, fitness," .
 
 <http://www.example.org/sports/record/4856>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6341,8 +6438,9 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/sports/record/30023>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2016-04-27T11:08:13.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2016-04-27T11:08:13.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6361,8 +6459,9 @@
                 <http://www.example.org/sports/contact/socialmedia/30023> .
 
 <http://www.example.org/sports/record/4824>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6400,8 +6499,8 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/contact/5304>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 6055031" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 6055031" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "NEILSTOWN ROAD, CLONDALKIN, DUBLIN 22 Eircode D22VY46" .
 
@@ -6443,13 +6542,6 @@
         <http://www.semanticweb.org/KDE#hasY>
                 53.280551279286975 .
 
-<http://www.example.org/parking/coordinate/57>
-        a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
-        <http://www.semanticweb.org/KDE#hasX>
-                -6.405776880213243 ;
-        <http://www.semanticweb.org/KDE#hasY>
-                53.333009249313996 .
-
 <http://www.example.org/sports/activities/4912>
         a       <http://www.semanticweb.org/KDE#Activities> ;
         <http://www.semanticweb.org/KDE#hasPrimaryActivity>
@@ -6457,15 +6549,23 @@
         <http://www.semanticweb.org/KDE#hasSummaryActivities>
                 "Soccer Club Sports" .
 
+<http://www.example.org/parking/coordinate/57>
+        a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
+        <http://www.semanticweb.org/KDE#hasX>
+                -6.405776880213243 ;
+        <http://www.semanticweb.org/KDE#hasY>
+                53.333009249313996 .
+
 <http://www.example.org/sports/contact/4836>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353 1 4592960" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353 1 4592960" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "CONVENT ROAD, DUBLIN 22" .
 
 <http://www.example.org/multiuse/record/5310>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6515,8 +6615,9 @@
                 53.281520556095977 .
 
 <http://www.example.org/sports/record/4925>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6560,8 +6661,8 @@
                 "http://" .
 
 <http://www.example.org/sports/contact/4850>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "4589099" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "4589099" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "SAINT MARY'S G.A.A. CLUB, PÁIRC MHUIRE, SAGGART, CO. DUBLIN" .
 
@@ -6588,8 +6689,9 @@
                 "http://www.bodengaa.ie/" .
 
 <http://www.example.org/sports/record/29221>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2016-04-27T10:56:45.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2016-04-27T10:56:45.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "Esri_Anonymous" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6615,8 +6717,9 @@
                 53.291864422755921 .
 
 <http://www.example.org/sports/record/4883>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6635,8 +6738,8 @@
                 <http://www.example.org/sports/contact/socialmedia/4883> .
 
 <http://www.example.org/multiuse/contact/5349>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "4520590 Eircode D24Y098" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "4520590 Eircode D24Y098" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "SYLVAN DRIVE, KINGSWOOD, DUBLIN 24" .
 
@@ -6648,8 +6751,8 @@
                 53.34133235348304 .
 
 <http://www.example.org/multiuse/contact/9607>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4521871" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4521871" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "Jobstown Village Square, Fortunestown,Tallaght, Dublin 24" .
 
@@ -6673,16 +6776,16 @@
                 53.283941694017692 .
 
 <http://www.example.org/multiuse/contact/socialmedia/10406>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "fcycmanager@gmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "fcycmanager@gmail.com" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
                 "na" ;
         <http://www.semanticweb.org/KDE#hasWebsite>
                 "http://www.fettercairncommunityandyouthcentre.yourclub.ie" .
 
 <http://www.example.org/multiuse/contact/5363>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4527247" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4527247" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "CASTLETYMON COURT, DUBLIN 24" .
 
@@ -6696,8 +6799,9 @@
                 "No" .
 
 <http://www.example.org/multiuse/record/5355>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6744,8 +6848,8 @@
                 "http://www.loretohockeyclub.ie/" .
 
 <http://www.example.org/sports/contact/4849>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "+353" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "+353" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "COLLEGE LANE, NEWCASTLE ROAD, RATHCOOLE, CO. DUBLIN" .
 
@@ -6809,8 +6913,8 @@
                 53.316849838503401 .
 
 <http://www.example.org/sports/contact/4831>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "296 1428" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "296 1428" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "UNIT 1, BROOMHILL TERRACE, DUBLIN 24" .
 
@@ -6830,8 +6934,9 @@
                 53.283178500125324 .
 
 <http://www.example.org/sports/record/4920>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6874,8 +6979,9 @@
                 "Youth clubs, Drama, singing & cáfe, Karate, Zumba, childcare, CV service, photocopying service" .
 
 <http://www.example.org/sports/record/4818>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6914,8 +7020,9 @@
                 1 .
 
 <http://www.example.org/sports/record/4864>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -6955,8 +7062,8 @@
                 53.281491040339219 .
 
 <http://www.example.org/multiuse/contact/socialmedia/5308>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "glenasmolecommunitycentre@gmail.com" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "glenasmolecommunitycentre@gmail.com" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/Glenasmole-Community-Centre-440185179394873/timeline?ref=page_internal" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -6975,8 +7082,8 @@
                 "No" .
 
 <http://www.example.org/multiuse/contact/5344>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 4590770" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 4590770" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "60 & 60A AVONBEG GARDENS, TALLAGHT, DUBLIN 24" .
 
@@ -6995,8 +7102,8 @@
                 "No" .
 
 <http://www.example.org/sports/contact/29221>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "01 495 2237" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "01 495 2237" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "St. Columba's College, Whitechurch, Dublin 16" .
 
@@ -7013,8 +7120,8 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/contact/5312>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "015210683/0872195177" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "015210683/0872195177" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "EARLSFORT ROAD, LUCAN, CO. DUBLIN" .
 
@@ -7035,8 +7142,8 @@
         a       <http://www.semanticweb.org/KDE#Facilities> .
 
 <http://www.example.org/multiuse/contact/socialmedia/5298>
-        a                         <http://www.semanticweb.org/KDE#OnlinePresence> ;
-        <http://schema.orgemail>  "na" ;
+        a                          <http://www.semanticweb.org/KDE#OnlinePresence> ;
+        <http://schema.org#email>  "na" ;
         <http://www.semanticweb.org/KDE#hasFacebookLink>
                 "https://www.facebook.com/pages/Bawnogue-Youth-Community-Centre/173025299408500" ;
         <http://www.semanticweb.org/KDE#hasTwitterLink>
@@ -7045,8 +7152,9 @@
                 "n/a" .
 
 <http://www.example.org/multiuse/record/5304>
-        a                               <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#MultiUseCommunityCentre> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:46:10.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -7091,8 +7199,9 @@
                 53.282495588719279 .
 
 <http://www.example.org/sports/record/4919>
-        a                               <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
-        <http://schema.orgdateCreated>  "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        a       <http://www.semanticweb.org/KDE#SportsAndRecreationClubs> ;
+        <http://schema.org#dateCreated>
+                "2015-06-15T15:39:47.000Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
         <http://www.semanticweb.org/KDE#createdBy>
                 "COMMUNITY" ;
         <http://www.semanticweb.org/KDE#hasActivityType>
@@ -7110,19 +7219,19 @@
         <http://www.semanticweb.org/KDE#hasOnlinePresence>
                 <http://www.example.org/sports/contact/socialmedia/4919> .
 
-<http://www.example.org/parking/coordinate/65>
-        a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
-        <http://www.semanticweb.org/KDE#hasX>
-                -6.450775092757577 ;
-        <http://www.semanticweb.org/KDE#hasY>
-                53.346554857465257 .
-
 <http://www.example.org/sports/activities/4920>
         a       <http://www.semanticweb.org/KDE#Activities> ;
         <http://www.semanticweb.org/KDE#hasPrimaryActivity>
                 "Sports and Recreation Clubs" ;
         <http://www.semanticweb.org/KDE#hasSummaryActivities>
                 "Boxing Club" .
+
+<http://www.example.org/parking/coordinate/65>
+        a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
+        <http://www.semanticweb.org/KDE#hasX>
+                -6.450775092757577 ;
+        <http://www.semanticweb.org/KDE#hasY>
+                53.346554857465257 .
 
 <http://www.example.org/sports/coordinate/4858>
         a       <http://www.semanticweb.org/KDE#GeoCoordinates> ;
@@ -7132,14 +7241,14 @@
                 53.331500273428432 .
 
 <http://www.example.org/sports/contact/4844>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "451 0372" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "451 0372" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "SAINT ANNE'S G.A.A. CLUB, BOHERNABREENA ROAD, BOHERNABREENA, CO. DUBLIN" .
 
 <http://www.example.org/sports/contact/4890>
-        a                             <http://www.semanticweb.org/KDE#CommunicationInfo> ;
-        <http://schema.orgtelephone>  "014582622" ;
+        a                              <http://www.semanticweb.org/KDE#CommunicationInfo> ;
+        <http://schema.org#telephone>  "014582622" ;
         <http://www.semanticweb.org/KDE#hasAddress>
                 "BRITTAS, CO. DUBLIN" .
 

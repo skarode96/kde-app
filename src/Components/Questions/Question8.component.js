@@ -19,10 +19,10 @@ function Question8() {
         "PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n" +
         "PREFIX cs: <http://purl.org/vocab/changeset/schema#>\n" +
         "\n" +
-        "SELECT ?name ?subject\n" +
+        "SELECT ?Name\n" +
         "WHERE {\n" +
         "  ?record csv:hasOnlinePresence ?subject.\n" +
-        "  ?record csv:hasName ?name.\n" +
+        "  ?record csv:hasName ?Name.\n" +
         "  FILTER(NOT EXISTS { ?subject csv:hasWebsite ?site })\n" +
         "}\n";
     async function getResultList() {

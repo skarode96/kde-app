@@ -74,7 +74,7 @@ function Question10() {
             <br/>
             <Row>
                 <Col xs={5}>
-                    What are the details of nearest parking area available near a particular Sports and Recreation Club and Give the number of available parking spaces?
+                    What are the details (number of parking spaces, type of space and distance in meters) of parking area nearest to a particular Sports and Recreation Club or a Multi-use Community Center?
                 </Col>
                 <Col xs={4} >
                     <Dropdown onSelect={(eventKey)=>handleOnSelect(eventKey)}>
