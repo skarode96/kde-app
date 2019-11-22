@@ -87,6 +87,8 @@ function Question7() {
                             </Dropdown.Item>
                             <Dropdown.Item eventKey={'RATHCOOLE COMMUNITY CENTRE'}>RATHCOOLE COMMUNITY CENTRE</Dropdown.Item>
                             <Dropdown.Item eventKey={'QUARRYVALE COMMUNITY CENTRE'}>QUARRYVALE COMMUNITY CENTRE</Dropdown.Item>
+                            <Dropdown.Item eventKey={'DOMINIC\'S COMMUNITY CENTRE'}>DOMINIC'S COMMUNITY CENTRE</Dropdown.Item>
+                            <Dropdown.Item eventKey={'KILLINARDEN COMMUNITY CENTRE'}>KILLINARDEN COMMUNITY CENTRE</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </Col>
