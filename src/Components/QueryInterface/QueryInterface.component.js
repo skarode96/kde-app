@@ -9,7 +9,7 @@ import Form from "react-bootstrap/Form";
 
 function QueryInterface() {
     let [response, setResponse] = React.useState({});
-    let [queryInput, setQueryInput] = React.useState("PREFIX csv: <http://www.semanticweb.org/KDE#>\n" +
+    let [queryInput, setQueryInput] = React.useState("PREFIX pp: <http://www.semanticweb.org/public-place#>\n" +
         "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
         "PREFIX math:<http://www.w3.org/2005/xpath-functions/math#>\n" +
         "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +

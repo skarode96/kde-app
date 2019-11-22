@@ -14,7 +14,7 @@ function Question9() {
 
     let [response, setResponse] = React.useState({});
     let [dropdownVal, setDropDownVal] = React.useState('DUBLIN 12');
-    let query = "PREFIX csv: <http://www.semanticweb.org/KDE#>\n" +
+    let query = "PREFIX pp: <http://www.semanticweb.org/public-place#>\n" +
         "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
         "PREFIX math:<http://www.w3.org/2005/xpath-functions/math#>\n" +
         "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
@@ -22,9 +22,9 @@ function Question9() {
         "PREFIX cs: <http://purl.org/vocab/changeset/schema#>\n"+
         "SELECT ?Name_Of_Center ?Address\n" +
         "WHERE {\n" +
-        "  ?subject csv:hasAddress ?Address.\n" +
-        "  ?center csv:hasContactInfo ?subject. \n" +
-        "  ?center csv:hasName ?Name_Of_Center.\n" +
+        "  ?subject pp:hasAddress ?Address.\n" +
+        "  ?center pp:hasContactInfo ?subject. \n" +
+        "  ?center pp:hasName ?Name_Of_Center.\n" +
         " FILTER regex(?Address, \""+
         dropdownVal
         +"\", \"i\")\n" +

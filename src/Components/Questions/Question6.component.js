@@ -15,7 +15,7 @@ function Question6() {
     let [response, setResponse] = React.useState({});
     let [dropdownValDistance, setDropDownValDistance] = React.useState('1000');
     let [dropdownValCenter, setDropDownValCenter] = React.useState('MARK\'S CELTIC FOOTBALL CLUB');
-    let query = "PREFIX csv: <http://www.semanticweb.org/KDE#>\n" +
+    let query = "PREFIX pp: <http://www.semanticweb.org/public-place#>\n" +
         "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
         "PREFIX math:<http://www.w3.org/2005/xpath-functions/math#>\n" +
         "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
@@ -23,19 +23,19 @@ function Question6() {
         "PREFIX cs: <http://purl.org/vocab/changeset/schema#>\n" +
         "SELECT ?Name_Of_Center ?Distance_In_Meters\n" +
         "WHERE {\n" +
-        "  ?subject csv:hasX ?x.\n" +
-        "  ?subject csv:hasY ?y.\n" +
-        "  ?parkingrecord csv:hasCoordinates ?subject.\n" +
-        "  ?parkingrecord rdf:type csv:ParkingSpace.\n" +
-        "  ?parkingrecord csv:hasLocationName ?Name_Of_Center.\n" +
-        "  ?parkingrecord csv:hasSpaceType ?type.\n" +
+        "  ?subject pp:hasX ?x.\n" +
+        "  ?subject pp:hasY ?y.\n" +
+        "  ?parkingrecord pp:hasCoordinates ?subject.\n" +
+        "  ?parkingrecord rdf:type pp:ParkingSpace.\n" +
+        "  ?parkingrecord pp:hasLocationName ?Name_Of_Center.\n" +
+        "  ?parkingrecord pp:hasSpaceType ?type.\n" +
         "  {\n" +
         "    SELECT ?selectedx ?selectedy \n" +
         "    WHERE {\n" +
-        "      ?sub csv:hasX ?selectedx.\n" +
-        "      ?sub csv:hasY ?selectedy.\n" +
-        "      ?center csv:hasCoordinates ?sub.\n" +
-        "      ?center csv:hasName \"" + dropdownValCenter + "\".\n" +
+        "      ?sub pp:hasX ?selectedx.\n" +
+        "      ?sub pp:hasY ?selectedy.\n" +
+        "      ?center pp:hasCoordinates ?sub.\n" +
+        "      ?center pp:hasName \"" + dropdownValCenter + "\".\n" +
         "   }\n" +
         "  }\n" +
         "  BIND ((xsd:decimal(?selectedx) - xsd:decimal(?x)) * 0.0174533 AS ?phi)\n" +
