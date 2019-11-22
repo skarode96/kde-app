@@ -12,7 +12,7 @@ import Form from "react-bootstrap/Form";
 function Question4() {
 
     let [response, setResponse] = React.useState({});
-    let query = "PREFIX csv: <http://www.semanticweb.org/KDE#>\n" +
+    let query = "PREFIX pp: <http://www.semanticweb.org/public-place#>\n" +
         "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
         "PREFIX math:<http://www.w3.org/2005/xpath-functions/math#>\n" +
         "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
@@ -21,8 +21,8 @@ function Question4() {
         "\n" +
         "SELECT ?Creator (xsd:string(COUNT(?name)) AS ?Count)\n" +
         "WHERE {\n" +
-        "  ?subject csv:createdBy ?Creator.\n" +
-        "  ?subject csv:hasName ?name.\n" +
+        "  ?subject pp:createdBy ?Creator.\n" +
+        "  ?subject pp:hasName ?name.\n" +
         "}GROUP BY ?Creator";
     async function getResultList() {
         const response = await fetchSparQL(query);

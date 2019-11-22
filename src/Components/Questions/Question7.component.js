@@ -14,7 +14,7 @@ function Question7() {
 
     let [response, setResponse] = React.useState({});
     let [dropdownValCenter, setDropDownValCenter] = React.useState('NEILSTOWN COMMUNITY CENTRE');
-    let query = "PREFIX csv: <http://www.semanticweb.org/KDE#>\n" +
+    let query = "PREFIX pp: <http://www.semanticweb.org/public-place#>\n" +
         "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
         "PREFIX math:<http://www.w3.org/2005/xpath-functions/math#>\n" +
         "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
@@ -22,19 +22,19 @@ function Question7() {
         "PREFIX cs: <http://purl.org/vocab/changeset/schema#>\n" +
         "SELECT  ?Type (xsd:string(Count(?Type)) AS ?Count)\n" +
         "WHERE {\n" +
-        "  ?subject csv:hasX ?x.\n" +
-        "  ?subject csv:hasY ?y.\n" +
-        "  ?parkingrecord csv:hasCoordinates ?subject.\n" +
-        "  ?parkingrecord rdf:type csv:ParkingSpace.\n" +
-        "  ?parkingrecord csv:hasLocationName ?name.\n" +
-        "  ?parkingrecord csv:hasSpaceType ?Type.\n" +
+        "  ?subject pp:hasX ?x.\n" +
+        "  ?subject pp:hasY ?y.\n" +
+        "  ?parkingrecord pp:hasCoordinates ?subject.\n" +
+        "  ?parkingrecord rdf:type pp:ParkingSpace.\n" +
+        "  ?parkingrecord pp:hasLocationName ?name.\n" +
+        "  ?parkingrecord pp:hasSpaceType ?Type.\n" +
         "  {\n" +
         "    SELECT ?selectedx ?selectedy \n" +
         "    WHERE {\n" +
-        "      ?sub csv:hasX ?selectedx.\n" +
-        "      ?sub csv:hasY ?selectedy.\n" +
-        "      ?center csv:hasCoordinates ?sub.\n" +
-        "       ?center csv:hasName \"" + dropdownValCenter + "\".\n" +
+        "      ?sub pp:hasX ?selectedx.\n" +
+        "      ?sub pp:hasY ?selectedy.\n" +
+        "      ?center pp:hasCoordinates ?sub.\n" +
+        "       ?center pp:hasName \"" + dropdownValCenter + "\".\n" +
         "   }\n" +
         "  }\n" +
         "# To get the distance between two coordinates in metres \n" +
