@@ -1,7 +1,7 @@
 
 export default async function fetchSparQL(query) {
     let body = "query=" + encodeURIComponent(query);
-    const response = await fetch("http://localhost:3030/kde_j_v2/sparql", {
+    const response = await fetch("http://ec2-52-210-17-160.eu-west-1.compute.amazonaws.com:8080/kde_j_v2/sparql", {
         "credentials": "include",
         "headers": {
             "accept": "application/sparql-results+json,*/*;q=0.9",
@@ -11,7 +11,6 @@ export default async function fetchSparQL(query) {
             "sec-fetch-site": "same-origin",
             "x-requested-with": "XMLHttpRequest"
         },
-        "referrer": "http://localhost:3030/dataset.html?tab=query&ds=/test-1",
         "referrerPolicy": "no-referrer-when-downgrade",
         "body": body,
         "method": "POST",
